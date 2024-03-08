@@ -1,0 +1,85 @@
+/* Styles for the circular profile picture */
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 100px auto;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 60%;
+    height: auto;
+}
+
+/* Styles for the name */
+.name {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for the social media cards */
+.social-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.social-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+}
+
+.social-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.social-card span {
+    font-size: 14px;
+}
+/* Styles for the name */
+.name {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+body {
+    background-color: #e0f2f1; /* Light blue */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Styles for the CV and Projects buttons */
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.cv-button, .projects-button {
+    margin: 60 100px; /* Adjusted margin to reduce spacing */
+}
+.cv-button a, .projects-button a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #9a9d91; /* Same color as CV button */
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 50px; /* Rounded border-radius to create oval shape */
+}
+
+.cv-button a:hover, .projects-button a:hover {
+    background-color: #df0d61; /* Red color when hovered */
+}
+
